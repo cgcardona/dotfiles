@@ -1,6 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d/")
 (global-linum-mode t)
-(setq auto-save-default-nil)
+(setq auto-save-default nil)
 (setq make-backup-files nil)
 (add-hook 'ruby-mode-hook
   (lambda()
@@ -16,6 +16,6 @@
     (require 'ruby-electric)
     (ruby-electric-mode t)
     ))
-(add-to-list 'load-path "~/.emacs.d/evil") ; only without ELPA/el-get
-(require 'evil)
-(evil-mode 1)
+;(add-to-list 'load-path "~/.emacs.d/evil") ; only without ELPA/el-get
+;(require 'evil)
+;(evil-mode 1)

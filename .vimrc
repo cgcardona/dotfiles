@@ -48,6 +48,8 @@ set comments=b:#,:%,://,fb:-,n:>,n:),s1:/*,mb:*,ex:*/ " list of strings that can
 " Y to yank from the cursor to the end of the line
 map Y y$
 
+autocmd BufNewFile,BufRead *.json set ft=javascript " json syntax highlighting
+
 " these commands deal with changing and minimizing windows up and down
 set winminheight=0
 map <C-J> <C-W>j<C-W>_

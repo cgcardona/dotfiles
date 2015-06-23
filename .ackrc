@@ -1,1 +1,8 @@
+# Always use color
+--color
+
+# Case-insensitive if query is lower case, otherwise it's case sensitive
 --smart-case
+
+# Show context of search hit
+--context

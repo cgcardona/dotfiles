@@ -123,6 +123,7 @@ alias undo="git checkout -- "
 alias gmd="git merge dev"
 alias tme="tig --author='Gabriel Cardona'"
 alias tsl="tig stash list"
+alias ce="code ."
 
 mkcd () {
   mkdir "$1"
